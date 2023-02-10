@@ -1,0 +1,132 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+input{
+    padding: 5px;
+    margin: 10px;
+}
+/* body{
+    background-color: antiquewhite;
+    width: 100vw;
+    height:100vh;
+    background-image:linear-gradient(to left,#9fbdca, #f0efcb);
+
+} */
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0px;
+    background: url(../imagem/pexels-pixabay-314726.jpg) no-repeat;
+    background-image: linear-gradient(to top, rgb(119, 198, 252), rgb(198, 253, 255));
+}
+h2{
+    font-size: 20px;
+    margin: 0px;
+    padding: 1.8px;
+    background-image: linear-gradient(to top, rgb(119, 198, 252), rgb(198, 253, 255));
+}
+form{
+    padding-left: 0px;
+    padding: 15px;
+    text-align:left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    background-image: linear-gradient(to top, rgba(97, 95, 95, 0.74), rgb(198, 253, 255));
+    border-radius: 8px;
+}
+
+#campo{
+    width: calc(90% - 85px);
+    margin: 0px;
+    
+}
+
+#buscar{
+    width: calc(18.5% - 20px);
+    margin: -3.8px;
+    padding: 1px;
+}
+
+form > input{
+    background-color: white;
+    color: black;
+    font-size: 0.95em;
+    width: calc(40% - 63px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 1px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+    padding: 5px;
+    margin: 7px;
+}
+
+section{
+    background-image: linear-gradient(to top, rgb(119, 198, 252), rgb(198, 253, 255));
+}
+
+section#cadastro > div#imagem{
+    display: block;
+    background: url(../imagem/pexels-pixabay-314726.jpg) no-repeat;
+    background-size: cover;
+    background-position: left bottom;
+    height: 200px;
+    
+}
+section#cadastro > div#formulario{
+    display: block;
+    padding: 10px;
+    margin: -10px;
+
+}
+ /*@media screen and (min-width: 768px) and (max-width: 992px){ 
+    body{
+        background-image: linear-gradient(to top,#49a09d, #9a63be);
+    }
+
+    section#cadastro{
+        width: 80vw;
+        height: 320px;
+    }
+
+    section#cadastro > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#cadastro > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}*/
+
+#anexo{
+    padding: 5px;
+    margin: 10px;
+}
+
+section > button#cadastrar{
+    padding: 5px;
+    margin: 15px;
+    text-align: right;
+}
+
+section#cadastro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    background-color: white;
+    width: 900px;
+    height: 614px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.315);
+
+    transform: translate(-50%, -50%);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
+
